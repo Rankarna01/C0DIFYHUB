@@ -11,8 +11,6 @@ import "./components/AppStore/Gallery.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-
 const App = () => {
   React.useEffect(() => {
     AOS.init({
